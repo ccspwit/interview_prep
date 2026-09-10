@@ -1,118 +1,158 @@
-# Curated LeetCode Study List — Coding Interview Prep
+# Curated LeetCode Interview Prep List
 
-2–3 classic, high-frequency problems per category. Difficulty noted as E (easy) / M (medium) / H (hard).
+High-frequency problems grouped by data structure / technique. Each category has 2 Easy and 2 Medium problems, followed by a set of well-known Hard problems.
 
-## 1. Arrays & Hashing
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 1 | Two Sum | E | Given an array of integers and a target, return indices of the two numbers that add up to the target. |
-| 49 | Group Anagrams | M | Group strings that are anagrams of each other into lists. |
-| 128 | Longest Consecutive Sequence | M | Find the length of the longest run of consecutive integers in an unsorted array (O(n) expected). |
+## Categories
+
+1. [Array & Hashing](#1-array--hashing)
+2. [Two Pointers](#2-two-pointers)
+3. [Sliding Window](#3-sliding-window)
+4. [Stack](#4-stack)
+5. [Binary Search](#5-binary-search)
+6. [Linked List](#6-linked-list)
+7. [Trees (Binary Tree / BST)](#7-trees-binary-tree--bst)
+8. [Graphs (BFS / DFS)](#8-graphs-bfs--dfs)
+9. [Topological Sort](#9-topological-sort)
+10. [Dynamic Programming](#10-dynamic-programming)
+11. [Heap / Priority Queue](#11-heap--priority-queue)
+12. [Backtracking](#12-backtracking)
+13. [Intervals](#13-intervals)
+- [Well-Known Hard Problems](#well-known-hard-problems)
+
+## 1. Array & Hashing
+
+| # | Level | Problem | Description |
+|---|-------|---------|-------------|
+| 1 | Easy | [Two Sum](https://leetcode.com/problems/two-sum/) | Find two numbers in an array that add up to a target; return their indices. |
+| 217 | Easy | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Determine if any value appears at least twice in the array. |
+| 49 | Medium | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Group strings that are anagrams of each other. |
+| 347 | Medium | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Return the k most frequent elements in an array. |
 
 ## 2. Two Pointers
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 125 | Valid Palindrome | E | Check if a string is a palindrome considering only alphanumeric characters, ignoring case. |
-| 15 | 3Sum | M | Find all unique triplets in the array that sum to zero. |
-| 11 | Container With Most Water | M | Pick two lines to form a container that holds the most water. |
+
+| # | Level | Problem | Description |
+|---|-------|---------|-------------|
+| 125 | Easy | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Check if a string is a palindrome considering only alphanumeric chars. |
+| 167 | Easy | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Find two numbers in a sorted array that add to the target (two-pointer). |
+| 15 | Medium | [3Sum](https://leetcode.com/problems/3sum/) | Find all unique triplets in the array that sum to zero. |
+| 11 | Medium | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Maximize water area between two lines using two pointers. |
 
 ## 3. Sliding Window
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 121 | Best Time to Buy and Sell Stock | E | Maximize profit from one buy and one sell. |
-| 3 | Longest Substring Without Repeating Characters | M | Find the length of the longest substring with all distinct characters. |
-| 76 | Minimum Window Substring | M | Find the smallest window in string s containing all characters of string t. |
+
+| # | Level | Problem | Description |
+|---|-------|---------|-------------|
+| 121 | Easy | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Maximize profit from one buy/sell transaction. |
+| 643 | Easy | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | Find the contiguous subarray of length k with the maximum average. |
+| 3 | Medium | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Length of the longest substring with all distinct chars. |
+| 424 | Medium | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Longest substring achievable by replacing at most k chars. |
 
 ## 4. Stack
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 20 | Valid Parentheses | E | Check if a string of brackets `()[]{}` is well-formed. |
-| 155 | Min Stack | M | Design a stack supporting push, pop, top, and retrieving the minimum element in O(1). |
-| 739 | Daily Temperatures | M | For each day, find how many days until a warmer temperature (monotonic stack). |
+
+| # | Level | Problem | Description |
+|---|-------|---------|-------------|
+| 20 | Easy | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Check if a string of brackets is well-formed using a stack. |
+| 155 | Easy | [Min Stack](https://leetcode.com/problems/min-stack/) | Design a stack supporting push, pop, top, and getMin in O(1). |
+| 150 | Medium | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Evaluate an expression given in postfix notation. |
+| 739 | Medium | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Days until a warmer temperature, using a monotonic stack. |
 
 ## 5. Binary Search
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 704 | Binary Search | E | Standard binary search on a sorted array. |
-| 33 | Search in Rotated Sorted Array | M | Search a target in a rotated-once sorted array in O(log n). |
-| 153 | Find Minimum in Rotated Sorted Array | M | Find the minimum element in a rotated sorted array in O(log n). |
+
+| # | Level | Problem | Description |
+|---|-------|---------|-------------|
+| 704 | Easy | [Binary Search](https://leetcode.com/problems/binary-search/) | Standard binary search on a sorted array. |
+| 278 | Easy | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | Find the first bad version with a boolean API. |
+| 33 | Medium | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Binary search in a rotated sorted array. |
+| 153 | Medium | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Locate the rotation point in O(log n). |
 
 ## 6. Linked List
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 206 | Reverse Linked List | E | Reverse a singly linked list iteratively and recursively. |
-| 141 / 142 | Linked List Cycle I / II | E / M | Detect a cycle; then find the node where the cycle begins. |
-| 21 / 23 | Merge Two Sorted Lists / Merge k Sorted Lists | E / H | Merge sorted lists using pointers; then with a heap. |
+
+| # | Level | Problem | Description |
+|---|-------|---------|-------------|
+| 206 | Easy | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Reverse a singly linked list iteratively or recursively. |
+| 21 | Easy | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Merge two sorted linked lists into one sorted list. |
+| 141 | Medium | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Detect if a linked list has a cycle (fast/slow pointers). |
+| 19 | Medium | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Remove the nth node from the end in one pass. |
 
 ## 7. Trees (Binary Tree / BST)
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 226 | Invert Binary Tree | E | Swap every node's left and right children. |
-| 102 | Binary Tree Level Order Traversal | M | BFS traversal returning values level by level. |
-| 98 | Validate Binary Search Tree | M | Check whether a binary tree satisfies BST ordering constraints. |
 
-## 8. Tries
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 208 | Implement Trie (Prefix Tree) | M | Implement insert, search, and startsWith for a trie. |
-| 211 | Design Add and Search Words Data Structure | M | Trie with wildcard `.` matching. |
-| 212 | Word Search II | H | Find all dictionary words on a letter board using a trie + backtracking. |
+| # | Level | Problem | Description |
+|---|-------|---------|-------------|
+| 226 | Easy | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Swap every left/right child in the tree. |
+| 104 | Easy | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Compute the tree's height. |
+| 102 | Medium | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | BFS traversal returning values level by level. |
+| 98 | Medium | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Check that a binary tree is a valid BST. |
 
-## 9. Heap / Priority Queue
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 703 | Kth Largest Element in a Stream | E | Maintain the kth largest value as numbers stream in. |
-| 347 | Top K Frequent Elements | M | Return the k most frequent elements in an array. |
-| 295 | Find Median from Data Stream | H | Support adding numbers and querying the running median (two heaps). |
+## 8. Graphs (BFS / DFS)
 
-## 10. Backtracking
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 78 | Subsets | M | Generate all subsets of a set of distinct integers. |
-| 46 | Permutations | M | Generate all permutations of an array of distinct integers. |
-| 79 | Word Search | M | Check if a word can be traced on a letter board moving adjacently. |
+| # | Level | Problem | Description |
+|---|-------|---------|-------------|
+| 733 | Easy | [Flood Fill](https://leetcode.com/problems/flood-fill/) | Paint a connected region of an image (DFS/BFS). |
+| 200 | Medium* | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Count connected groups of '1's in a grid. |
+| 133 | Medium | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Deep-copy an undirected graph from a given node. |
+| 994 | Medium | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Multi-source BFS: minutes until all oranges rot. |
 
-## 11. Graphs (BFS / DFS / Union-Find)
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 200 | Number of Islands | M | Count connected groups of `'1'`s in a 2D grid. |
-| 133 | Clone Graph | M | Deep-copy an undirected graph given a starting node. |
-| 207 | Course Schedule | M | Detect cycles in prerequisites (topological sort). |
+*#200 is often rated Medium but is a classic starter; treated here as the easy pick for graph practice.
 
-## 12. Dynamic Programming (1-D)
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 70 | Climbing Stairs | E | Count distinct ways to climb n stairs taking 1 or 2 steps. |
-| 198 | House Robber | M | Maximize loot without robbing adjacent houses. |
-| 322 | Coin Change | M | Fewest coins summing to an amount (unbounded knapsack variant). |
+## 9. Topological Sort
 
-## 13. Dynamic Programming (2-D)
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 62 | Unique Paths | M | Count paths in a grid moving only right/down. |
-| 1143 | Longest Common Subsequence | M | Length of the longest subsequence shared by two strings. |
-| 416 | Partition Equal Subset Sum | M | Decide whether the array splits into two equal-sum subsets (0/1 knapsack). |
+| # | Level | Problem | Description |
+|---|-------|---------|-------------|
+| 207 | Medium | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Determine if all courses can be finished given prerequisites (cycle detection via Kahn's/DFS). |
+| 210 | Medium | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Return a valid order to take all courses (topological order). |
 
-## 14. Intervals
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 56 | Merge Intervals | M | Merge all overlapping intervals. |
-| 57 | Insert Interval | M | Insert a new interval into a sorted, non-overlapping list. |
-| 435 | Non-overlapping Intervals | M | Minimum removals to make intervals non-overlapping. |
+*Note: LeetCode has no Easy-tagged topological sort problems; these two are the high-frequency standards.*
 
-## 15. Greedy
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 53 | Maximum Subarray | M | Kadane's algorithm — largest contiguous subarray sum. |
-| 55 | Jump Game | M | Decide whether you can reach the last index by jumping. |
-| 134 | Gas Station | M | Find the unique starting station to complete a circular route. |
+## 10. Dynamic Programming
 
-## 16. Bit Manipulation
-| # | Problem | Difficulty | Description |
-|---|---------|------------|-------------|
-| 136 | Single Number | E | Find the element appearing once where all others appear twice (XOR). |
-| 191 | Number of 1 Bits | E | Count set bits in an integer. |
-| 268 | Missing Number | E | Find the missing number in [0..n] using XOR or sum. |
+| # | Level | Problem | Description |
+|---|-------|---------|-------------|
+| 70 | Easy | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Count distinct ways to climb n stairs taking 1 or 2 steps. |
+| 198 | Easy | [House Robber](https://leetcode.com/problems/house-robber/) | Maximize loot without robbing adjacent houses. |
+| 152 | Medium | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Contiguous subarray with the largest product. |
+| 300 | Medium | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Length of the longest strictly increasing subsequence. |
 
-## Suggested Order
-1–3 warm-up fundamentals → 5–7 (core patterns) → 9–11 (graph/heap) → 12–13 (DP, hardest to internalize) → remaining categories interleaved as review.
+## 11. Heap / Priority Queue
+
+| # | Level | Problem | Description |
+|---|-------|---------|-------------|
+| 703 | Easy | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Maintain the kth largest value as numbers stream in. |
+| 1046 | Easy | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | Repeatedly smash the two heaviest stones (max-heap). |
+| 215 | Medium | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Find the kth largest element (heap or quickselect). |
+| 621 | Medium | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Minimum intervals to finish tasks with cooldown gaps. |
+
+## 12. Backtracking
+
+| # | Level | Problem | Description |
+|---|-------|---------|-------------|
+| 78 | Medium* | [Subsets](https://leetcode.com/problems/subsets/) | Generate all subsets of a set of distinct integers. |
+| 46 | Medium* | [Permutations](https://leetcode.com/problems/permutations/) | Generate all permutations of distinct integers. |
+| 39 | Medium | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Find combinations summing to target (reuse allowed). |
+| 79 | Medium | [Word Search](https://leetcode.com/problems/word-search/) | Search for a word along grid paths (DFS + backtracking). |
+
+*#78 and #46 are the standard backtracking starters despite their Medium tag.*
+
+## 13. Intervals
+
+| # | Level | Problem | Description |
+|---|-------|---------|-------------|
+| 228 | Easy | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Condense a sorted array into range strings. |
+| 252 | Easy | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | Determine if a person can attend all meetings. |
+| 56 | Medium | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Merge overlapping intervals. |
+| 57 | Medium | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Insert a new interval and merge where needed. |
+
+---
+
+## Well-Known Hard Problems
+
+| # | Problem | Description |
+|---|---------|-------------|
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Find the median in O(log(m+n)) via binary search partition. |
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Merge k sorted linked lists efficiently with a heap. |
+| 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Reverse linked list nodes in groups of k. |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Compute water trapped between bar heights (two pointers / DP). |
+| 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Max path sum between any two nodes in a tree. |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Longest run of consecutive numbers in O(n) (hashing). |
+| 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | Find all dictionary words on the board using a Trie. |
+| 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Max of each window of size k (monotonic deque). |
+| 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Encode/decode a binary tree to/from a string. |
+| 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Smallest window in s containing all chars of t. |
