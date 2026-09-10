@@ -1,0 +1,42 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Feb 3, 2020
+LeetCode problem 695
+Given a non-empty 2D array grid of 0's and 1's, an island is a group of 1's (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
+Find the maximum area of an island in the given 2D array. (If there is no island, the maximum area is 0.)
+
+Example 1:
+[[0,0,1,0,0,0,0,1,0,0,0,0,0],
+ [0,0,0,0,0,0,0,1,1,1,0,0,0],
+ [0,1,1,0,1,0,0,0,0,0,0,0,0],
+ [0,1,0,0,1,1,0,0,1,0,1,0,0],
+ [0,1,0,0,1,1,0,0,1,1,1,0,0],
+ [0,0,0,0,0,0,0,0,0,0,1,0,0],
+ [0,0,0,0,0,0,0,1,1,1,0,0,0],
+ [0,0,0,0,0,0,0,1,1,0,0,0,0]]
+
+Given the above grid, return 6. Note the answer is not 11, because the island must be connected 4-directionally.
+Example 2:
+[[0,0,0,0,0,0,0,0]]
+Given the above grid, return 0.
+Note: The length of each dimension in the given grid does not exceed 50.
+@author: K Li
+"""
+class Solution:
+    def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
+        # DFS, also save searched cell
+        seen = set()
+        def area(r, c):
+            if not (0 <= r < len(grid) and 0 <= c < len(grid[0])
+                    and (r, c) not in seen and grid[r][c]):
+                return 0
+            seen.add((r, c))
+            return (1 + area(r+1, c) + area(r-1, c) +
+                    area(r, c-1) + area(r, c+1))
+
+        if not grid or not grid[0]:
+            return 0
+        return max(area(r, c) if grid[r][c]==1 else 0
+                   for r in range(len(grid))
+                   for c in range(len(grid[0])))
+    
