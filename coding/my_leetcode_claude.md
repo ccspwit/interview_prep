@@ -1,365 +1,365 @@
 # My LeetCode Solutions
 
-Index of LeetCode solutions in `coding/leetcode/`, sorted by problem number.
+Index of Python solutions in `coding/leetcode/`, sorted by problem number.
 
-| LeetCode Number | LeetCode Name | DSA Types | File |
-|-----------------|---------------|-----------|------|
-| 1 | Two Sum | array, hash table | [Two Sum](leetcode/TwoSum.py) |
-| 2 | Add Two Numbers | linked list | [Add Two Numbers](leetcode/AddTwoNumbers.py) |
-| 3 | Longest Substring | hash table, sliding window, string | [Longest Substring](leetcode/LongestSubstring.py) |
-| 4 | Median2 Arrays | array, math | [Median2 Arrays](leetcode/Median2Arrays.py) |
-| 5 | Longest Palindrome | sliding window, string | [Longest Palindrome](leetcode/LongestPalindrome.py) |
-| 6 | Zig Zag | array, math, string | [Zig Zag](leetcode/ZigZag.py) |
-| 7 | Reverse Integer | math | [Reverse Integer](leetcode/ReverseInteger.py) |
-| 8 | My Atoi | math, string | [My Atoi](leetcode/MyAtoi.py) |
-| 9 | Palindrome Number | math, string | [Palindrome Number](leetcode/PalindromeNumber.py) |
-| 11 | Container Most Water | two pointers | [Container Most Water](leetcode/ContainerMostWater.py) |
-| 12 | Roman2 Int | math | [Roman2 Int](leetcode/Roman2Int.py) |
-| 14 | Longest Common Prefix | array, sort, string | [Longest Common Prefix](leetcode/LongestCommonPrefix.py) |
-| 14 | Longest Common Subsequence | array, sort, string | [Longest Common Subsequence](leetcode/LongestCommonSubsequence.py) |
-| 15 | 3 Sum | array, sort | [3 Sum](leetcode/3Sum.py) |
-| 16 | 3 Sum Closest | array, linked list, sort | [3 Sum Closest](leetcode/3SumClosest.py) |
-| 17 | Letter Combinations Of Phone Number | math, string | [Letter Combinations Of Phone Number](leetcode/LetterCombinationsOfPhoneNumber.py) |
-| 18 | 4 Sum | array, hash table, sort | [4 Sum](leetcode/4Sum.py) |
-| 19 | Remove Nth From End | linked list | [Remove Nth From End](leetcode/RemoveNthFromEnd.py) |
-| 20 | Valid Parentheses | stack, string | [Valid Parentheses](leetcode/ValidParentheses.py) |
-| 21 | Merge Two Lists | linked list | [Merge Two Lists](leetcode/MergeTwoLists.py) |
-| 22 | Generating Parentheses |  | [Generating Parentheses](leetcode/GeneratingParentheses.py) |
-| 23 | Merge KSorted Lists | heap, linked list | [Merge KSorted Lists](leetcode/MergeKSortedLists.py) |
-| 24 | Swap Nodes Pairs In Linked List | linked list | [Swap Nodes Pairs In Linked List](leetcode/SwapNodesPairsInLinkedList.py) |
-| 26 | Remove Duplicates | array, linked list | [Remove Duplicates](leetcode/RemoveDuplicates.py) |
-| 27 | Remove Element | array, linked list | [Remove Element](leetcode/RemoveElement.py) |
-| 28 | Str Str | string | [Str Str](leetcode/StrStr.py) |
-| 29 | Divide | bit manipulation | [Divide](leetcode/Divide.py) |
-| 31 | Next Permutation | array | [Next Permutation](leetcode/NextPermutation.py) |
-| 33 | Search Rotated Sorted Array | array, linked list | [Search Rotated Sorted Array](leetcode/SearchRotatedSortedArray.py) |
-| 34 | Search For Range | array | [Search For Range](leetcode/SearchForRange.py) |
-| 35 | Search Insert | array, linked list | [Search Insert](leetcode/SearchInsert.py) |
-| 36 | Valid Sudoku | array, string | [Valid Sudoku](leetcode/ValidSudoku.py) |
-| 38 | Count And Say | linked list, string | [Count And Say](leetcode/CountAndSay.py) |
-| 39 | Combination Sum | DFS, array, sort | [Combination Sum](leetcode/CombinationSum.py) |
-| 41 | First Missing Positive | array, math | [First Missing Positive](leetcode/FirstMissingPositive.py) |
-| 42 | Top KFrequent Elements | array, hash table, heap | [Top KFrequent Elements](leetcode/TopKFrequentElements.py) |
-| 42 | Trapping Water | two pointers | [Trapping Water](leetcode/TrappingWater.py) |
-| 43 | Multiply Strings | math | [Multiply Strings](leetcode/MultiplyStrings.py) |
-| 46 | Permutation | DFS, array | [Permutation](leetcode/Permutation.py) |
-| 49 | Group Anagrams | array, string | [Group Anagrams](leetcode/GroupAnagrams.py) |
-| 50 | My Pow | math | [My Pow](leetcode/MyPow.py) |
-| 53 | Max Sub Array | array, divide and conquer | [Max Sub Array](leetcode/MaxSubArray.py) |
-| 54 | Spiral Matrix | array, matrix | [Spiral Matrix](leetcode/SpiralMatrix.py) |
-| 55 | Jump Game | array | [Jump Game](leetcode/JumpGame.py) |
-| 56 | Merge Interval |  | [Merge Interval](leetcode/MergeInterval.py) |
-| 57 | Insert Interval |  | [Insert Interval](leetcode/InsertInterval.py) |
-| 59 | Spiral Matrix II | array, math, matrix | [Spiral Matrix II](leetcode/SpiralMatrix_II.py) |
-| 60 | Permutation Sequence | array, math, string | [Permutation Sequence](leetcode/PermutationSequence.py) |
-| 61 | Rotate List | linked list | [Rotate List](leetcode/RotateList.py) |
-| 62 | Unique Paths | math, matrix | [Unique Paths](leetcode/UniquePaths.py) |
-| 64 | Minimum Path Sum | matrix | [Minimum Path Sum](leetcode/MinimumPathSum.py) |
-| 65 | Valid Number | math, string | [Valid Number](leetcode/ValidNumber.py) |
-| 66 | Plus One | array, math | [Plus One](leetcode/PlusOne.py) |
-| 67 | Add Binary | string | [Add Binary](leetcode/AddBinary.py) |
-| 68 | Text Justification | array, greedy, string | [Text Justification](leetcode/TextJustification.py) |
-| 69 | NSqrt | binary search | [NSqrt](leetcode/NSqrt.py) |
-| 70 | Climb Stairs | dynamic programming | [Climb Stairs](leetcode/ClimbStairs.py) |
-| 71 | Simplify Path | stack, string | [Simplify Path](leetcode/SimplifyPath.py) |
-| 73 | Set Matrix Zeroes | matrix | [Set Matrix Zeroes](leetcode/SetMatrixZeroes.py) |
-| 74 | Search2 D | linked list, matrix | [Search2 D](leetcode/Search2D.py) |
-| 75 | Sort Colors | array, sort | [Sort Colors](leetcode/SortColors.py) |
-| 76 | Minimum Window Substring | hash table, sliding window, string | [Minimum Window Substring](leetcode/MinimumWindowSubstring.py) |
-| 77 | Combinations | stack | [Combinations](leetcode/Combinations.py) |
-| 78 | Subsets | array, stack | [Subsets](leetcode/Subsets.py) |
-| 79 | Word Search | matrix, string | [Word Search](leetcode/WordSearch.py) |
-| 80 | Remove Duplicatesfrom Sorted Array II | array, math | [Remove Duplicatesfrom Sorted Array II](leetcode/RemoveDuplicatesfromSortedArrayII.py) |
-| 82 | Remove Duplicatesfrom Sorted List II | linked list | [Remove Duplicatesfrom Sorted List II](leetcode/RemoveDuplicatesfromSortedListII.py) |
-| 83 | Delete Duplicates | linked list | [Delete Duplicates](leetcode/DeleteDuplicates.py) |
-| 84 | Largest Rectangle Area |  | [Largest Rectangle Area](leetcode/LargestRectangleArea.py) |
-| 86 | Partition List | linked list | [Partition List](leetcode/PartitionList.py) |
-| 88 | Merge Sorted Array | array, math | [Merge Sorted Array](leetcode/MergeSortedArray.py) |
-| 89 | Gray Code | bit manipulation | [Gray Code](leetcode/GrayCode.py) |
-| 90 | Subsets II | array, hash table, sort, stack | [Subsets II](leetcode/SubsetsII.py) |
-| 91 | Decode Ways | dynamic programming, string | [Decode Ways](leetcode/DecodeWays.py) |
-| 92 | Reverse Linked List II | linked list | [Reverse Linked List II](leetcode/ReverseLinkedListII.py) |
-| 93 | Restore IPAddresses | stack, string | [Restore IPAddresses](leetcode/RestoreIPAddresses.py) |
-| 94 | BSTTraversal | DFS, binary tree, stack | [BSTTraversal](leetcode/BSTTraversal.py) |
-| 96 | Num Trees | binary search, binary tree, design | [Num Trees](leetcode/NumTrees.py) |
-| 98 | Validate Binary Search Tree | binary search, binary tree | [Validate Binary Search Tree](leetcode/ValidateBinarySearchTree.py) |
-| 100 | Same Tree | binary tree, stack | [Same Tree](leetcode/SameTree.py) |
-| 101 | Symmetric Tree | DFS, binary tree | [Symmetric Tree](leetcode/SymmetricTree.py) |
-| 102 | BSTLevel Order | BFS, binary search, binary tree | [BSTLevel Order](leetcode/BSTLevelOrder.py) |
-| 103 | Binary Tree Zigzag Level Order Traversal | BFS, binary search, binary tree | [Binary Tree Zigzag Level Order Traversal](leetcode/BinaryTreeZigzagLevelOrderTraversal.py) |
-| 108 | Sorted Array2 BST | array, binary tree | [Sorted Array2 BST](leetcode/SortedArray2BST.py) |
-| 110 | Balanced Tree | binary tree | [Balanced Tree](leetcode/BalancedTree.py) |
-| 112 | Path Sum | DFS, binary tree | [Path Sum](leetcode/PathSum.py) |
-| 118 | Pascal Triangle | math | [Pascal Triangle](leetcode/PascalTriangle.py) |
-| 121 | Max Profit | array, design | [Max Profit](leetcode/MaxProfit.py) |
-| 125 | Valid Palindrome | string | [Valid Palindrome](leetcode/ValidPalindrome.py) |
-| 127 | Word Ladder | BFS, array, hash table, queue, string | [Word Ladder](leetcode/WordLadder.py) |
-| 133 | Clone Graph | BFS, graph, stack | [Clone Graph](leetcode/CloneGraph.py) |
-| 136 | Single Number | array | [Single Number](leetcode/SingleNumber.py) |
-| 139 | Word Break | array, dynamic programming, hash table, string | [Word Break](leetcode/WordBreak.py) |
-| 141 | Linked List Cycle | linked list, two pointers | [Linked List Cycle](leetcode/LinkedListCycle.py) |
-| 146 | LRUCache | design, linked list | [LRUCache](leetcode/LRUCache.py) |
-| 149 | Max Points On ALine | math, matrix | [Max Points On ALine](leetcode/MaxPointsOnALine.py) |
-| 150 | Reverse Polish Notation | stack | [Reverse Polish Notation](leetcode/ReversePolishNotation.py) |
-| 151 | Reverse Words In String | string | [Reverse Words In String](leetcode/ReverseWordsInString.py) |
-| 153 | Find Minimumin Rotated Sorted Array | array, linked list | [Find Minimumin Rotated Sorted Array](leetcode/FindMinimuminRotatedSortedArray.py) |
-| 155 | Min Stack | design, stack | [Min Stack](leetcode/MinStack.py) |
-| 156 | Binary Tree Upside Down | binary tree | [Binary Tree Upside Down](leetcode/BinaryTreeUpsideDown.py) |
-| 157 | Read NCharacters | array, design, string | [Read NCharacters](leetcode/ReadNCharacters.py) |
-| 159 | Longest Substringwith At Most Two Distinct Characters | sliding window, string | [Longest Substringwith At Most Two Distinct Characters](leetcode/LongestSubstringwithAtMostTwoDistinctCharacters.py) |
-| 160 | Intersection Linked List | linked list | [Intersection Linked List](leetcode/IntersectionLinkedList.py) |
-| 161 | One Edit Distance | string | [One Edit Distance](leetcode/OneEditDistance.py) |
-| 162 | Find Peak Element | array, binary search | [Find Peak Element](leetcode/FindPeakElement.py) |
-| 163 | Missing Ranges | array, math | [Missing Ranges](leetcode/MissingRanges.py) |
-| 167 | Two Sum II | array, binary search, two pointers | [Two Sum II](leetcode/TwoSumII.py) |
-| 168 | To Excel Title | math | [To Excel Title](leetcode/ToExcelTitle.py) |
-| 169 | Majority Element | array | [Majority Element](leetcode/MajorityElement.py) |
-| 170 | Two Sum III | array, design, hash table | [Two Sum III](leetcode/TwoSumIII.py) |
-| 172 | Factorial Trailing Zero | math | [Factorial Trailing Zero](leetcode/FactorialTrailingZero.py) |
-| 173 | Binary Search Tree Iterator | binary search, binary tree, design | [Binary Search Tree Iterator](leetcode/BinarySearchTreeIterator.py) |
-| 187 | Repeated DNASequence | hash table, string | [Repeated DNASequence](leetcode/RepeatedDNASequence.py) |
-| 189 | Rotate Array | array | [Rotate Array](leetcode/RotateArray.py) |
-| 190 | Bit Reverse Count | bit manipulation | [Bit Reverse Count](leetcode/Bit_Reverse_Count.py) |
-| 198 | House Robber | array | [House Robber](leetcode/HouseRobber.py) |
-| 200 | Coin Change | BFS, sort | [Coin Change](leetcode/CoinChange.py) |
-| 200 | Number Of Islands | BFS, DFS, matrix | [Number Of Islands](leetcode/NumberOfIslands.py) |
-| 202 | Happy Number | math | [Happy Number](leetcode/HappyNumber.py) |
-| 203 | Remove From Linked List | array, linked list | [Remove From Linked List](leetcode/RemoveFromLinkedList.py) |
-| 204 | Count Prime | math | [Count Prime](leetcode/CountPrime.py) |
-| 205 | Isomorphic Strings | hash table, string | [Isomorphic Strings](leetcode/IsomorphicStrings.py) |
-| 206 | Reverse Linked List | array, linked list | [Reverse Linked List](leetcode/ReverseLinkedList.py) |
-| 207 | Course Schedule | DFS, array, graph, hash table | [Course Schedule](leetcode/CourseSchedule.py) |
-| 208 | Implement Trie Prefix Tree | design, string, trie | [Implement Trie Prefix Tree](leetcode/ImplementTrie_PrefixTree.py) |
-| 211 | Add Search Word | DFS, design, sliding window, string, trie | [Add Search Word](leetcode/AddSearchWord.py) |
-| 215 | Nth Largest Element In Array | array, heap, sort | [Nth Largest Element In Array](leetcode/NthLargestElementInArray.py) |
-| 217 | Contains Duplicate | array, hash table | [Contains Duplicate](leetcode/ContainsDuplicate.py) |
-| 225 | Stack Queue | BFS, design, queue, stack | [Stack Queue](leetcode/StackQueue.py) |
-| 226 | Invert Tree | DFS, binary tree | [Invert Tree](leetcode/InvertTree.py) |
-| 230 | Kth Smallest Element In BST | array, binary search, binary tree | [Kth Smallest Element In BST](leetcode/KthSmallestElementInBST.py) |
-| 231 | Power Of Two | bit manipulation | [Power Of Two](leetcode/PowerOfTwo.py) |
-| 234 | Palindrome Linked List | linked list, string | [Palindrome Linked List](leetcode/PalindromeLinkedList.py) |
-| 235 | Lowest Common Ancestor | binary search, binary tree | [Lowest Common Ancestor](leetcode/LowestCommonAncestor.py) |
-| 237 | Delete Node | linked list | [Delete Node](leetcode/DeleteNode.py) |
-| 238 | Product Except Self | array, linked list | [Product Except Self](leetcode/ProductExceptSelf.py) |
-| 242 | Is Anagram | string | [Is Anagram](leetcode/IsAnagram.py) |
-| 243 | Shortest Word Distance | array, string | [Shortest Word Distance](leetcode/ShortestWordDistance.py) |
-| 246 | Strobogrammatic Number | math, string | [Strobogrammatic Number](leetcode/StrobogrammaticNumber.py) |
-| 249 | Intersection2 Arrays | array, hash table, sort | [Intersection2 Arrays](leetcode/Intersection2Arrays.py) |
-| 250 | Count Univalue Subtrees | DFS, binary tree | [Count Univalue Subtrees](leetcode/CountUnivalueSubtrees.py) |
-| 252 | Meeting Rooms | array, math | [Meeting Rooms](leetcode/MeetingRooms.py) |
-| 254 | Factor Combinations | DFS, stack | [Factor Combinations](leetcode/FactorCombinations.py) |
-| 256 | Paint House | math, matrix | [Paint House](leetcode/PaintHouse.py) |
-| 257 | Binary Tree Paths | DFS, binary tree, queue, stack | [Binary Tree Paths](leetcode/BinaryTreePaths.py) |
-| 258 | Add Digits | DFS | [Add Digits](leetcode/AddDigits.py) |
-| 259 | 3 Sum Smaller | array, math | [3 Sum Smaller](leetcode/3SumSmaller.py) |
-| 261 | Graph Valid Tree | array, graph | [Graph Valid Tree](leetcode/GraphValidTree.py) |
-| 263 | Ugly Number | math | [Ugly Number](leetcode/UglyNumber.py) |
-| 266 | Palindrome Permutation | string | [Palindrome Permutation](leetcode/PalindromePermutation.py) |
-| 268 | Missing Number | array, math | [Missing Number](leetcode/MissingNumber.py) |
-| 270 | Closest Value BST | binary search, binary tree | [Closest Value BST](leetcode/ClosestValueBST.py) |
-| 276 | Paint Fence | math | [Paint Fence](leetcode/PaintFence.py) |
-| 277 | Find Celebrity | design | [Find Celebrity](leetcode/FindCelebrity.py) |
-| 278 | First Bad Version | binary search, design | [First Bad Version](leetcode/FirstBadVersion.py) |
-| 283 | Move Zeros | array, math | [Move Zeros](leetcode/MoveZeros.py) |
-| 290 | Word Pattern | string | [Word Pattern](leetcode/WordPattern.py) |
-| 292 | Nim Game | heap | [Nim Game](leetcode/NimGame.py) |
-| 293 | Flip Game | string | [Flip Game](leetcode/FlipGame.py) |
-| 295 | Find Median From Data Stream | array, design, heap | [Find Median From Data Stream](leetcode/FindMedianFromDataStream.py) |
-| 297 | Serialize Deserialize BST | binary search, binary tree, bit manipulation, design, string | [Serialize Deserialize BST](leetcode/SerializeDeserializeBST.py) |
-| 299 | Bullsand Cows | array, hash table | [Bullsand Cows](leetcode/BullsandCows.py) |
-| 300 | Longest Increasing Subsequence | array, math | [Longest Increasing Subsequence](leetcode/LongestIncreasingSubsequence.py) |
-| 303 | Range Sum Query | array, math | [Range Sum Query](leetcode/RangeSumQuery.py) |
-| 311 | Sparse Matrix Multiplication | array, hash table | [Sparse Matrix Multiplication](leetcode/SparseMatrixMultiplication.py) |
-| 314 | Binary Tree Vertical Order Traversal | binary search, binary tree | [Binary Tree Vertical Order Traversal](leetcode/BinaryTreeVerticalOrderTraversal.py) |
-| 323 | Numberof Connected Componentsin Graph | BFS, array, graph, queue, union find | [Numberof Connected Componentsin Graph](leetcode/NumberofConnectedComponentsinGraph.py) |
-| 326 | Power Of Three Four | DFS, bit manipulation | [Power Of Three Four](leetcode/PowerOfThreeFour.py) |
-| 338 | Count Bits | array, math | [Count Bits](leetcode/CountBits.py) |
-| 339 | Nested List Weight Sum | array, math | [Nested List Weight Sum](leetcode/NestedListWeightSum.py) |
-| 344 | Reverse String | math, string | [Reverse String](leetcode/ReverseString.py) |
-| 346 | Moving Average Data Stream | sliding window | [Moving Average Data Stream](leetcode/MovingAverageDataStream.py) |
-| 359 | Logger Rate Limiter | design, sliding window, string | [Logger Rate Limiter](leetcode/LoggerRateLimiter.py) |
-| 366 | Find Leaves Of Binary Tree | binary tree | [Find Leaves Of Binary Tree](leetcode/FindLeavesOfBinaryTree.py) |
-| 367 | Perfect Square | math | [Perfect Square](leetcode/PerfectSquare.py) |
-| 370 | Range Addition | array, matrix | [Range Addition](leetcode/RangeAddition.py) |
-| 371 | Sum2 Integers | math | [Sum2 Integers](leetcode/Sum2Integers.py) |
-| 374 | Guess Number | math | [Guess Number](leetcode/GuessNumber.py) |
-| 377 | Combination Sum IV | DFS, array, design, dynamic programming | [Combination Sum IV](leetcode/CombinationSumIV.py) |
-| 380 | Insert Delete Get Random | array, design | [Insert Delete Get Random](leetcode/InsertDeleteGetRandom.py) |
-| 383 | Ransom Note | hash table, string | [Ransom Note](leetcode/RansomNote.py) |
-| 387 | First Unique | hash table, string | [First Unique](leetcode/FirstUnique.py) |
-| 389 | Find The Difference | string | [Find The Difference](leetcode/FindTheDifference.py) |
-| 392 | Is Subsequence | dynamic programming, string | [Is Subsequence](leetcode/IsSubsequence.py) |
-| 394 | Decode String | DFS, stack, string | [Decode String](leetcode/DecodeString.py) |
-| 400 | Nth Digit | math | [Nth Digit](leetcode/NthDigit.py) |
-| 401 | Binary Watch | bit manipulation | [Binary Watch](leetcode/BinaryWatch.py) |
-| 404 | Sum Of Left Leaves | binary tree | [Sum Of Left Leaves](leetcode/SumOfLeftLeaves.py) |
-| 405 | To Hex | bit manipulation, string | [To Hex](leetcode/ToHex.py) |
-| 408 | Valid Word Abbreviation | string | [Valid Word Abbreviation](leetcode/ValidWordAbbreviation.py) |
-| 409 | Longest Palindrome2 | string | [Longest Palindrome2](leetcode/LongestPalindrome2.py) |
-| 412 | Fizz Buzz | math, string | [Fizz Buzz](leetcode/FizzBuzz.py) |
-| 414 | Third Maximum | array, math | [Third Maximum](leetcode/ThirdMaximum.py) |
-| 415 | Add Strings | math, string | [Add Strings](leetcode/AddStrings.py) |
-| 422 | Valid Word Square | math, string | [Valid Word Square](leetcode/ValidWordSquare.py) |
-| 424 | Longest Repeating Character Replacement | sliding window, string, two pointers | [Longest Repeating Character Replacement](leetcode/LongestRepeatingCharacterReplacement.py) |
-| 427 | Construct Quad Tree | binary tree, matrix | [Construct Quad Tree](leetcode/ConstructQuadTree.py) |
-| 429 | N Ary Tree Level Order Traversal | BFS, binary tree | [N Ary Tree Level Order Traversal](leetcode/N-aryTreeLevelOrderTraversal.py) |
-| 434 | Number Of Segments String | math, string | [Number Of Segments String](leetcode/NumberOfSegmentsString.py) |
-| 438 | Find Anagrams | hash table, sliding window, string | [Find Anagrams](leetcode/FindAnagrams.py) |
-| 441 | Arranging Coins | math | [Arranging Coins](leetcode/ArrangingCoins.py) |
-| 443 | String Compression | array, string | [String Compression](leetcode/StringCompression.py) |
-| 447 | Number Of Boomerangs | math | [Number Of Boomerangs](leetcode/NumberOfBoomerangs.py) |
-| 448 | Disappeared Numbers | array, math | [Disappeared Numbers](leetcode/DisappearedNumbers.py) |
-| 453 | Minimum Move2 Equal | array, sort | [Minimum Move2 Equal](leetcode/MinimumMove2Equal.py) |
-| 455 | Assign Cookies | sort | [Assign Cookies](leetcode/AssignCookies.py) |
-| 459 | Repeated Substring Pattern | sliding window, string | [Repeated Substring Pattern](leetcode/RepeatedSubstringPattern.py) |
-| 461 | Hamming Distance | bit manipulation | [Hamming Distance](leetcode/HammingDistance.py) |
-| 463 | Island Perimeter | DFS, matrix | [Island Perimeter](leetcode/IslandPerimeter.py) |
-| 464 | Can IWin | DFS, array, design | [Can IWin](leetcode/CanIWin.py) |
-| 475 | Heaters | array, binary search, design, sort | [Heaters](leetcode/Heaters.py) |
-| 476 | Number Complement | bit manipulation | [Number Complement](leetcode/NumberComplement.py) |
-| 482 | License Key Formatting | array, string | [License Key Formatting](leetcode/LicenseKeyFormatting.py) |
-| 485 | Max Consecutive Ones | array, math | [Max Consecutive Ones](leetcode/MaxConsecutiveOnes.py) |
-| 492 | Construct Rectangle | design | [Construct Rectangle](leetcode/ConstructRectangle.py) |
-| 496 | Next Greater Element | array, math | [Next Greater Element](leetcode/NextGreaterElement.py) |
-| 500 | Keyboard Row | array, string | [Keyboard Row](leetcode/KeyboardRow.py) |
-| 501 | Find Mode In BST | DFS, binary search, binary tree, stack | [Find Mode In BST](leetcode/FindModeInBST.py) |
-| 504 | To Base7 | math, string | [To Base7](leetcode/ToBase7.py) |
-| 506 | Relative Ranks | array, math | [Relative Ranks](leetcode/RelativeRanks.py) |
-| 507 | Perfect Number | math | [Perfect Number](leetcode/PerfectNumber.py) |
-| 509 | Fibonacci Number | DFS | [Fibonacci Number](leetcode/FibonacciNumber.py) |
-| 515 | Find Largest Value In Each Tree Row | binary search, binary tree | [Find Largest Value In Each Tree Row](leetcode/FindLargestValueInEachTreeRow.py) |
-| 520 | Detect Capital | string | [Detect Capital](leetcode/DetectCapital.py) |
-| 521 | Longest Uncommon Subsequence | array, string | [Longest Uncommon Subsequence](leetcode/LongestUncommonSubsequence.py) |
-| 530 | Min Abs Diff BST | binary search, binary tree | [Min Abs Diff BST](leetcode/MinAbsDiffBST.py) |
-| 532 | Kdiff Pairs In Array | array, hash table, sort | [Kdiff Pairs In Array](leetcode/KdiffPairsInArray.py) |
-| 535 | Encodeand Decode Tiny URL | design, string | [Encodeand Decode Tiny URL](leetcode/EncodeandDecodeTinyURL.py) |
-| 538 | Convert BSTto Greater Tree | DFS, binary search, binary tree, stack | [Convert BSTto Greater Tree](leetcode/ConvertBSTtoGreaterTree.py) |
-| 542 | 01 Matrix | BFS, array, matrix, queue | [01 Matrix](leetcode/01Matrix.py) |
-| 542 | Rotate Image | math, matrix | [Rotate Image](leetcode/RotateImage.py) |
-| 543 | Diameter Of BST | binary tree | [Diameter Of BST](leetcode/DiameterOfBST.py) |
-| 547 | Friend Circles | array, matrix, union find | [Friend Circles](leetcode/FriendCircles.py) |
-| 551 | Student Attendance Record | dynamic programming, string | [Student Attendance Record](leetcode/StudentAttendanceRecord.py) |
-| 553 | Optimal Division | array, math, string | [Optimal Division](leetcode/OptimalDivision.py) |
-| 554 | Brick Wall | array, math | [Brick Wall](leetcode/BrickWall.py) |
-| 558 | Quad Tree Intersection | binary tree, matrix | [Quad Tree Intersection](leetcode/QuadTreeIntersection.py) |
-| 559 | Maximum Depthof N Ary Tree | BFS, DFS, binary tree, queue | [Maximum Depthof N Ary Tree](leetcode/MaximumDepthofN-aryTree.py) |
-| 560 | Subarray Sum | array, math | [Subarray Sum](leetcode/SubarraySum.py) |
-| 561 | Array Partition | array, sort | [Array Partition](leetcode/ArrayPartition.py) |
-| 563 | Tilt Of Binary Tree | binary tree | [Tilt Of Binary Tree](leetcode/TiltOfBinaryTree.py) |
-| 565 | Array Nesting | array, math | [Array Nesting](leetcode/ArrayNesting.py) |
-| 566 | Reshape Matrix | array, math, matrix | [Reshape Matrix](leetcode/ReshapeMatrix.py) |
-| 567 | Permutation String | sliding window, string | [Permutation String](leetcode/PermutationString.py) |
-| 572 | Is Subtree | binary tree | [Is Subtree](leetcode/IsSubtree.py) |
-| 575 | Distribute Candies | array, math | [Distribute Candies](leetcode/DistributeCandies.py) |
-| 581 | Shortest Unsorted Subarray | array, sort, two pointers | [Shortest Unsorted Subarray](leetcode/ShortestUnsortedSubarray.py) |
-| 582 | Kill Process | array, stack | [Kill Process](leetcode/KillProcess.py) |
-| 583 | Deletions For Two Strings | sliding window, string | [Deletions For Two Strings](leetcode/DeletionsForTwoStrings.py) |
-| 589 | N Ary Tree Preorder Traversal | binary tree, stack | [N Ary Tree Preorder Traversal](leetcode/N-aryTreePreorderTraversal.py) |
-| 590 | N Ary Tree Postorder Traversal | DFS, binary tree, stack | [N Ary Tree Postorder Traversal](leetcode/N-aryTreePostorderTraversal.py) |
-| 592 | Fraction Addition Subtraction | design, string | [Fraction Addition Subtraction](leetcode/FractionAdditionSubtraction.py) |
-| 594 | Longest Harmonious Subsequence | array, math | [Longest Harmonious Subsequence](leetcode/LongestHarmoniousSubsequence.py) |
-| 594 | Valid Square | array, matrix, sort | [Valid Square](leetcode/ValidSquare.py) |
-| 599 | Minimum Index Sumof Two Lists | array | [Minimum Index Sumof Two Lists](leetcode/MinimumIndexSumofTwoLists.py) |
-| 605 | Can Place Flowers | array, math | [Can Place Flowers](leetcode/CanPlaceFlowers.py) |
-| 606 | Construct Stringfrom Binary Tree | binary tree, string | [Construct Stringfrom Binary Tree](leetcode/ConstructStringfromBinaryTree.py) |
-| 617 | Merge Two Binary Trees | binary tree | [Merge Two Binary Trees](leetcode/MergeTwoBinaryTrees.py) |
-| 621 | Task Scheduler | BFS, array, queue, string | [Task Scheduler](leetcode/TaskScheduler.py) |
-| 624 | Maximum Distancein Arrays | array, math | [Maximum Distancein Arrays](leetcode/MaximumDistanceinArrays.py) |
-| 628 | Maximum Product Of Three Numbers | array, heap | [Maximum Product Of Three Numbers](leetcode/MaximumProductOfThreeNumbers.py) |
-| 628 | Sumof Square Numbers | array, math | [Sumof Square Numbers](leetcode/SumofSquareNumbers.py) |
-| 637 | Average Levels Binary Tree | array, binary tree | [Average Levels Binary Tree](leetcode/AverageLevelsBinaryTree.py) |
-| 645 | Maximum Average Subarray I | array | [Maximum Average Subarray I](leetcode/MaximumAverageSubarrayI.py) |
-| 645 | Set Mismatch | array, hash table | [Set Mismatch](leetcode/SetMismatch.py) |
-| 647 | Palindromic Substrings | dynamic programming, string | [Palindromic Substrings](leetcode/PalindromicSubstrings.py) |
-| 653 | Two Sum IV | array, binary search, binary tree, hash table | [Two Sum IV](leetcode/TwoSumIV.py) |
-| 657 | Robot Returnto Origin | matrix, string | [Robot Returnto Origin](leetcode/RobotReturntoOrigin.py) |
-| 661 | Image Smoother | design, matrix | [Image Smoother](leetcode/ImageSmoother.py) |
-| 665 | Non Decreasing Array | array | [Non Decreasing Array](leetcode/Non-decreasingArray.py) |
-| 669 | Trima Binary Search Tree | array, binary search, binary tree | [Trima Binary Search Tree](leetcode/TrimaBinarySearchTree.py) |
-| 671 | Second Minimum Node Ina Binary Tree | DFS, binary tree | [Second Minimum Node Ina Binary Tree](leetcode/SecondMinimumNodeInaBinaryTree.py) |
-| 680 | Valid Palindrome II | string | [Valid Palindrome II](leetcode/ValidPalindromeII.py) |
-| 682 | Baseball Game | array, stack, string | [Baseball Game](leetcode/BaseballGame.py) |
-| 686 | Repeated String Match | sliding window | [Repeated String Match](leetcode/RepeatedStringMatch.py) |
-| 687 | Longest Univalue Path | binary tree | [Longest Univalue Path](leetcode/LongestUnivaluePath.py) |
-| 690 | Employee Importance | DFS | [Employee Importance](leetcode/EmployeeImportance.py) |
-| 693 | Binary Numberwith Alternating Bits | bit manipulation | [Binary Numberwith Alternating Bits](leetcode/BinaryNumberwithAlternatingBits.py) |
-| 695 | Max Areaof Island | DFS, array, hash table, matrix | [Max Areaof Island](leetcode/MaxAreaofIsland.py) |
-| 696 | Count Binary Substrings | sliding window, string | [Count Binary Substrings](leetcode/CountBinarySubstrings.py) |
-| 697 | Degreeof An Array | array, math | [Degreeof An Array](leetcode/DegreeofAnArray.py) |
-| 700 | Searchina Binary Search Tree | binary search, binary tree, sliding window, string | [Searchina Binary Search Tree](leetcode/SearchinaBinarySearchTree.py) |
-| 703 | Kth Largest Elementina Stream | array, design, heap | [Kth Largest Elementina Stream](leetcode/KthLargestElementinaStream.py) |
-| 704 | Binary Search | array, binary search | [Binary Search](leetcode/BinarySearch.py) |
-| 709 | To Lower Case | string | [To Lower Case](leetcode/ToLowerCase.py) |
-| 716 | Max Stack | array, design, stack | [Max Stack](leetcode/MaxStack.py) |
-| 717 | 1 Bitand2 Bit Characters | bit manipulation, string | [1 Bitand2 Bit Characters](leetcode/1-bitand2-bitCharacters.py) |
-| 720 | Longest Wordin Dictionary | array, hash table, sort, string | [Longest Wordin Dictionary](leetcode/LongestWordinDictionary.py) |
-| 724 | Find Pivot Index | array, math | [Find Pivot Index](leetcode/FindPivotIndex.py) |
-| 728 | Self Dividing Numbers | array, math | [Self Dividing Numbers](leetcode/SelfDividingNumbers.py) |
-| 733 | Flood Fill | DFS, array, matrix | [Flood Fill](leetcode/FloodFill.py) |
-| 734 | Sentence Similarity | array, string | [Sentence Similarity](leetcode/SentenceSimilarity.py) |
-| 744 | Find Smallest Letter Greater Than Target | array, string | [Find Smallest Letter Greater Than Target](leetcode/FindSmallestLetterGreaterThanTarget.py) |
-| 746 | Min Cost Climbing Stairs | dynamic programming | [Min Cost Climbing Stairs](leetcode/MinCostClimbingStairs.py) |
-| 747 | Largest Number At Least Twiceof Others | array, math | [Largest Number At Least Twiceof Others](leetcode/LargestNumberAtLeastTwiceofOthers.py) |
-| 748 | Shortest Completing Word | array, hash table, string | [Shortest Completing Word](leetcode/ShortestCompletingWord.py) |
-| 751 | IPto CIDR | bit manipulation, string | [IPto CIDR](leetcode/IPtoCIDR.py) |
-| 758 | Bold Wordsin String | math, string | [Bold Wordsin String](leetcode/BoldWordsinString.py) |
-| 760 | Find Anagram Mappings | array | [Find Anagram Mappings](leetcode/FindAnagramMappings.py) |
-| 766 | Toeplitz Matrix | array, math, matrix | [Toeplitz Matrix](leetcode/ToeplitzMatrix.py) |
-| 771 | Jewelsand Stones | string | [Jewelsand Stones](leetcode/JewelsandStones.py) |
-| 784 | Letter Case Permutation | array, string | [Letter Case Permutation](leetcode/LetterCasePermutation.py) |
-| 792 | Number Of Matching Subsequences | array, design, string, two pointers | [Number Of Matching Subsequences](leetcode/NumberOfMatchingSubsequences.py) |
-| 800 | Similar RGBColor | math, string | [Similar RGBColor](leetcode/SimilarRGBColor.py) |
-| 811 | Subdomain Visit Count | array, math | [Subdomain Visit Count](leetcode/SubdomainVisitCount.py) |
-| 819 | Most Common Word | array, string | [Most Common Word](leetcode/MostCommonWord.py) |
-| 821 | Shortest Distancetoa Character | array, string | [Shortest Distancetoa Character](leetcode/ShortestDistancetoaCharacter.py) |
-| 824 | Goat Latin | string | [Goat Latin](leetcode/GoatLatin.py) |
-| 844 | Backspace String Compare | stack, string | [Backspace String Compare](leetcode/BackspaceStringCompare.py) |
-| 852 | Peak Indexina Mountain Array | array, binary search | [Peak Indexina Mountain Array](leetcode/PeakIndexinaMountainArray.py) |
-| 872 | Leaf Similar Tree | binary tree | [Leaf Similar Tree](leetcode/LeafSimilarTree.py) |
-| 893 | Groupsof Special Equivalent Strings | array, math, string | [Groupsof Special Equivalent Strings](leetcode/GroupsofSpecial-EquivalentStrings.py) |
-| 896 | Monotonic Array | array | [Monotonic Array](leetcode/MonotonicArray.py) |
-| 897 | Increasing Order Search Tree | binary search, binary tree | [Increasing Order Search Tree](leetcode/IncreasingOrderSearchTree.py) |
-| 929 | Unique Email Addresses | hash table, string | [Unique Email Addresses](leetcode/UniqueEmailAddresses.py) |
-| 937 | Reorder Log Files | array, sort, string | [Reorder Log Files](leetcode/ReorderLogFiles.py) |
-| 938 | Range Sumof BST | binary search, binary tree | [Range Sumof BST](leetcode/RangeSumofBST.py) |
-| 953 | Verifyingan Alien Dictionary | string | [Verifyingan Alien Dictionary](leetcode/VerifyinganAlienDictionary.py) |
-| 973 | KCloest Pointsto Origin | array, heap, sort | [KCloest Pointsto Origin](leetcode/KCloestPointstoOrigin.py) |
-| 977 | Squaresofa Sorted Array | array, math | [Squaresofa Sorted Array](leetcode/SquaresofaSortedArray.py) |
-| 989 | Addto Array Formof Integer | array, math | [Addto Array Formof Integer](leetcode/AddtoArray-FormofInteger.py) |
-| 1002 | Find Common Characters | array, string | [Find Common Characters](leetcode/FindCommonCharacters.py) |
-| 1010 | Pairsof Songs With Total Durations Divisibleby60 | array, hash table | [Pairsof Songs With Total Durations Divisibleby60](leetcode/PairsofSongsWithTotalDurationsDivisibleby60.py) |
-| 1021 | Remove Outermost Parentheses | string | [Remove Outermost Parentheses](leetcode/RemoveOutermostParentheses.py) |
-| 1022 | Sumof Root To Leaf Binary Numbers | DFS, binary tree, bit manipulation | [Sumof Root To Leaf Binary Numbers](leetcode/SumofRootToLeafBinaryNumbers.py) |
-| 1029 | Two City Scheduling | sort | [Two City Scheduling](leetcode/TwoCityScheduling.py) |
-| 1030 | Matrix Cellsin Distance Order | math, matrix | [Matrix Cellsin Distance Order](leetcode/MatrixCellsinDistanceOrder.py) |
-| 1033 | Moving Stones Until Consecutive | array, sort | [Moving Stones Until Consecutive](leetcode/MovingStonesUntilConsecutive.py) |
-| 1037 | Valid Boomerang | array, sort | [Valid Boomerang](leetcode/ValidBoomerang.py) |
-| 1041 | Robot Boundedin Circle |  | [Robot Boundedin Circle](leetcode/RobotBoundedinCircle.py) |
-| 1042 | Flower Planting With No Adjacent | array, graph, hash table | [Flower Planting With No Adjacent](leetcode/FlowerPlantingWithNoAdjacent.py) |
-| 1046 | Last Stone Weight | array, heap | [Last Stone Weight](leetcode/LastStoneWeight.py) |
-| 1047 | Remove All Adjacent Duplicates In String | stack, string | [Remove All Adjacent Duplicates In String](leetcode/RemoveAllAdjacentDuplicatesInString.py) |
-| 1051 | Height Checker | math | [Height Checker](leetcode/HeightChecker.py) |
-| 1056 | Confusing Number | array, math | [Confusing Number](leetcode/ConfusingNumber.py) |
-| 1064 | Fixed Point | array, binary search | [Fixed Point](leetcode/FixedPoint.py) |
-| 1065 | Index Pairsofa String | DFS, array, hash table, sliding window, sort, string, trie | [Index Pairsofa String](leetcode/IndexPairsofaString.py) |
-| 1071 | Greatest Common Divisorof Strings | math, string | [Greatest Common Divisorof Strings](leetcode/GreatestCommonDivisorofStrings.py) |
-| 1078 | Occurrences After Bigram | string | [Occurrences After Bigram](leetcode/OccurrencesAfterBigram.py) |
-| 1085 | Sumof Digitsinthe Minimum Number | array | [Sumof Digitsinthe Minimum Number](leetcode/SumofDigitsintheMinimumNumber.py) |
-| 1086 | High Five | BFS, array, heap, queue | [High Five](leetcode/HighFive.py) |
-| 1099 | Two Sum Less Than K | array, sort, two pointers | [Two Sum Less Than K](leetcode/TwoSumLessThanK.py) |
-| 1118 | Numberof Days In AMonth |  | [Numberof Days In AMonth](leetcode/NumberofDaysInAMonth.py) |
-| 1119 | Remove Vowelsfrom AString | string | [Remove Vowelsfrom AString](leetcode/RemoveVowelsfromAString.py) |
-| 1133 | Largest Unique Number | array, math | [Largest Unique Number](leetcode/LargestUniqueNumber.py) |
-| 1134 | Armstrong Number | math | [Armstrong Number](leetcode/ArmstrongNumber.py) |
-| 1143 | Longest Continuous Increasing Subsequence | DFS, design, string | [Longest Continuous Increasing Subsequence](leetcode/LongestContinuousIncreasingSubsequence.py) |
-| 1150 | Majority Element In ASorted Array | array, binary search | [Majority Element In ASorted Array](leetcode/MajorityElementInASortedArray.py) |
-| 1165 | Single Row Keyboard | string | [Single Row Keyboard](leetcode/Single-RowKeyboard.py) |
-| 1176 | Diet Plan Performance | array, sliding window | [Diet Plan Performance](leetcode/DietPlanPerformance.py) |
-| 1180 | Count Substringswith Only One Distinct Letter | math, string | [Count Substringswith Only One Distinct Letter](leetcode/CountSubstringswithOnlyOneDistinctLetter.py) |
-| 1196 | How Many Apples Can You Putintothe Basket | sort | [How Many Apples Can You Putintothe Basket](leetcode/HowManyApplesCanYouPutintotheBasket.py) |
-| 1213 | Intersectionof Three Sorted Arrays | array, math | [Intersectionof Three Sorted Arrays](leetcode/IntersectionofThreeSortedArrays.py) |
-| 1228 | Missing Number In Arithmetic Progression | array, math | [Missing Number In Arithmetic Progression](leetcode/MissingNumberInArithmeticProgression.py) |
-| 1243 | Array Transformation | array | [Array Transformation](leetcode/ArrayTransformation.py) |
-| 1271 | Hexspeak | math, string | [Hexspeak](leetcode/Hexspeak.py) |
-| 1419 | Minimum Number Of Frogs Croaking | math, string | [Minimum Number Of Frogs Croaking](leetcode/MinimumNumberOfFrogsCroaking.py) |
-| 1472 | Design Browser History | design, string | [Design Browser History](leetcode/DesignBrowserHistory.py) |
+| # | Problem | DSA Types |
+|---|---------|-----------|
+| 1 | [Two Sum](leetcode/TwoSum.py) | array, hash table |
+| 2 | [Add Two Numbers](leetcode/AddTwoNumbers.py) | linked list, math |
+| 3 | [Longest Substring](leetcode/LongestSubstring.py) | string, sliding window, hash table |
+| 4 | [Median of Two Sorted Arrays](leetcode/Median2Arrays.py) | array, binary search |
+| 5 | [Longest Palindrome](leetcode/LongestPalindrome.py) | string, dynamic programming, two pointers |
+| 6 | [Zig Zag](leetcode/ZigZag.py) | string |
+| 7 | [Reverse Integer](leetcode/ReverseInteger.py) | math |
+| 8 | [My Atoi](leetcode/MyAtoi.py) | string |
+| 9 | [Palindrome Number](leetcode/PalindromeNumber.py) | math |
+| 11 | [Container Most Water](leetcode/ContainerMostWater.py) | math |
+| 12 | [Roman2 Int](leetcode/Roman2Int.py) | math, string, hash table |
+| 14 | [Longest Common Prefix](leetcode/LongestCommonPrefix.py) | string |
+| 14 | [Longest Common Subsequence](leetcode/LongestCommonSubsequence.py) | string, dynamic programming |
+| 15 | [3Sum](leetcode/3Sum.py) | array, two pointers, sorting |
+| 16 | [3SumClosest](leetcode/3SumClosest.py) | array, two pointers, sorting |
+| 17 | [Letter Combinations Of Phone Number](leetcode/LetterCombinationsOfPhoneNumber.py) | backtracking, DFS |
+| 18 | [4Sum](leetcode/4Sum.py) | array, two pointers, sorting |
+| 19 | [Remove Nth From End](leetcode/RemoveNthFromEnd.py) | linked list, two pointers |
+| 20 | [Valid Parentheses](leetcode/ValidParentheses.py) | string, stack |
+| 21 | [Merge Two Lists](leetcode/MergeTwoLists.py) | linked list |
+| 22 | [Generating Parentheses](leetcode/GeneratingParentheses.py) | backtracking, DFS |
+| 23 | [Merge K Sorted Lists](leetcode/MergeKSortedLists.py) | linked list, heap, divide and conquer |
+| 24 | [Swap Nodes Pairs In Linked List](leetcode/SwapNodesPairsInLinkedList.py) | linked list |
+| 26 | [Remove Duplicates](leetcode/RemoveDuplicates.py) | array, two pointers |
+| 27 | [Remove Element](leetcode/RemoveElement.py) | array, two pointers |
+| 28 | [Str Str](leetcode/StrStr.py) | string, two pointers |
+| 29 | [Divide](leetcode/Divide.py) | math, bit manipulation |
+| 31 | [Next Permutation](leetcode/NextPermutation.py) | array |
+| 33 | [Search Rotated Sorted Array](leetcode/SearchRotatedSortedArray.py) | array, binary search |
+| 34 | [Search For Range](leetcode/SearchForRange.py) | array, binary search |
+| 35 | [Search Insert](leetcode/SearchInsert.py) | array, binary search |
+| 36 | [Valid Sudoku](leetcode/ValidSudoku.py) | hash table, matrix |
+| 38 | [Count And Say](leetcode/CountAndSay.py) | string |
+| 39 | [Combination Sum](leetcode/CombinationSum.py) | backtracking |
+| 41 | [First Missing Positive](leetcode/FirstMissingPositive.py) | sorting, array, math |
+| 42 | [Top K Frequent Elements](leetcode/TopKFrequentElements.py) | hash table, heap, sorting |
+| 42 | [Trapping Water](leetcode/TrappingWater.py) | array, two pointers, stack |
+| 43 | [Multiply Strings](leetcode/MultiplyStrings.py) | string, math |
+| 46 | [Permutation](leetcode/Permutation.py) | backtracking |
+| 49 | [Group Anagrams](leetcode/GroupAnagrams.py) | hash table, string, sorting |
+| 50 | [My Pow](leetcode/MyPow.py) | math, binary search |
+| 53 | [Max Sub Array](leetcode/MaxSubArray.py) | array, dynamic programming, divide and conquer |
+| 54 | [Spiral Matrix](leetcode/SpiralMatrix.py) | matrix |
+| 55 | [Jump Game](leetcode/JumpGame.py) | array, greedy, dynamic programming |
+| 56 | [Merge Interval](leetcode/MergeInterval.py) | intervals, sorting |
+| 57 | [Insert Interval](leetcode/InsertInterval.py) | intervals |
+| 59 | [SpiralMatrix_II](leetcode/SpiralMatrix_II.py) | matrix |
+| 60 | [Permutation Sequence](leetcode/PermutationSequence.py) | math, backtracking |
+| 61 | [Rotate List](leetcode/RotateList.py) | linked list, two pointers |
+| 62 | [Unique Paths](leetcode/UniquePaths.py) | matrix, dynamic programming |
+| 64 | [Minimum Path Sum](leetcode/MinimumPathSum.py) | matrix, dynamic programming |
+| 65 | [Valid Number](leetcode/ValidNumber.py) | string, math |
+| 66 | [Plus One](leetcode/PlusOne.py) | array, math |
+| 67 | [Add Binary](leetcode/AddBinary.py) | string, math |
+| 68 | [Text Justification](leetcode/TextJustification.py) | string |
+| 69 | [N Sqrt](leetcode/NSqrt.py) | math, binary search |
+| 70 | [Climb Stairs](leetcode/ClimbStairs.py) | dynamic programming |
+| 71 | [Simplify Path](leetcode/SimplifyPath.py) | stack |
+| 73 | [Set Matrix Zeroes](leetcode/SetMatrixZeroes.py) | matrix, hash table |
+| 74 | [Search2 D](leetcode/Search2D.py) | matrix, binary search |
+| 75 | [Sort Colors](leetcode/SortColors.py) | sorting, array, math |
+| 76 | [Minimum Window Substring](leetcode/MinimumWindowSubstring.py) | string, sliding window, hash table |
+| 77 | [Combinations](leetcode/Combinations.py) | backtracking |
+| 78 | [Subsets](leetcode/Subsets.py) | backtracking, bit manipulation |
+| 79 | [Word Search](leetcode/WordSearch.py) | matrix, backtracking, DFS |
+| 80 | [Remove Duplicatesfrom Sorted Array I I](leetcode/RemoveDuplicatesfromSortedArrayII.py) | array, two pointers |
+| 82 | [Remove Duplicatesfrom Sorted List I I](leetcode/RemoveDuplicatesfromSortedListII.py) | linked list |
+| 83 | [Delete Duplicates](leetcode/DeleteDuplicates.py) | linked list |
+| 84 | [Largest Rectangle Area](leetcode/LargestRectangleArea.py) | stack, array |
+| 86 | [Partition List](leetcode/PartitionList.py) | linked list |
+| 88 | [Merge Sorted Array](leetcode/MergeSortedArray.py) | sorting, array, math |
+| 89 | [Gray Code](leetcode/GrayCode.py) | backtracking, bit manipulation |
+| 90 | [Subsets I I](leetcode/SubsetsII.py) | backtracking |
+| 91 | [Decode Ways](leetcode/DecodeWays.py) | string, dynamic programming |
+| 92 | [Reverse Linked List I I](leetcode/ReverseLinkedListII.py) | linked list |
+| 93 | [Restore IP Addresses](leetcode/RestoreIPAddresses.py) | backtracking, string |
+| 94 | [BST Traversal](leetcode/BSTTraversal.py) | tree, stack |
+| 96 | [Num Trees](leetcode/NumTrees.py) | dynamic programming, tree |
+| 98 | [Validate Binary Search Tree](leetcode/ValidateBinarySearchTree.py) | tree, DFS, BST |
+| 100 | [Same Tree](leetcode/SameTree.py) | tree, DFS |
+| 101 | [Symmetric Tree](leetcode/SymmetricTree.py) | tree, DFS, BFS |
+| 102 | [BST Level Order](leetcode/BSTLevelOrder.py) | tree, BFS |
+| 103 | [Binary Tree Zigzag Level Order Traversal](leetcode/BinaryTreeZigzagLevelOrderTraversal.py) | tree, BFS |
+| 108 | [Sorted Array2 B S T](leetcode/SortedArray2BST.py) | tree, BST, divide and conquer |
+| 110 | [Balanced Tree](leetcode/BalancedTree.py) | tree, DFS |
+| 112 | [Path Sum](leetcode/PathSum.py) | tree, DFS, backtracking |
+| 118 | [Pascal Triangle](leetcode/PascalTriangle.py) | array, dynamic programming |
+| 121 | [Max Profit](leetcode/MaxProfit.py) | array, dynamic programming, greedy |
+| 125 | [Valid Palindrome](leetcode/ValidPalindrome.py) | string, two pointers |
+| 127 | [Word Ladder](leetcode/WordLadder.py) | BFS, graph |
+| 133 | [Clone Graph](leetcode/CloneGraph.py) | graph, DFS, BFS, hash table |
+| 136 | [Single Number](leetcode/SingleNumber.py) | bit manipulation, hash table |
+| 139 | [Word Break](leetcode/WordBreak.py) | dynamic programming, BFS |
+| 141 | [Linked List Cycle](leetcode/LinkedListCycle.py) | linked list, two pointers |
+| 146 | [LRU Cache](leetcode/LRUCache.py) | design, hash table, linked list |
+| 149 | [Max Points On A Line](leetcode/MaxPointsOnALine.py) | hash table, math |
+| 150 | [Reverse Polish Notation](leetcode/ReversePolishNotation.py) | stack |
+| 151 | [Reverse Words In String](leetcode/ReverseWordsInString.py) | string, two pointers |
+| 153 | [Find Minimumin Rotated Sorted Array](leetcode/FindMinimuminRotatedSortedArray.py) | binary search |
+| 155 | [Min Stack](leetcode/MinStack.py) | stack, design |
+| 156 | [Binary Tree Upside Down](leetcode/BinaryTreeUpsideDown.py) | tree |
+| 157 | [Read N Characters](leetcode/ReadNCharacters.py) | string, design |
+| 159 | [Longest Substringwith At Most Two Distinct Characters](leetcode/LongestSubstringwithAtMostTwoDistinctCharacters.py) | string, sliding window, hash table |
+| 160 | [Intersection Linked List](leetcode/IntersectionLinkedList.py) | linked list, two pointers |
+| 161 | [One Edit Distance](leetcode/OneEditDistance.py) | string, two pointers |
+| 162 | [Find Peak Element](leetcode/FindPeakElement.py) | binary search |
+| 163 | [Missing Ranges](leetcode/MissingRanges.py) | array |
+| 167 | [Two Sum I I](leetcode/TwoSumII.py) | array, two pointers, binary search |
+| 168 | [To Excel Title](leetcode/ToExcelTitle.py) | math |
+| 169 | [Majority Element](leetcode/MajorityElement.py) | array |
+| 170 | [Two Sum I I I](leetcode/TwoSumIII.py) | design, hash table |
+| 172 | [Factorial Trailing Zero](leetcode/FactorialTrailingZero.py) | math |
+| 173 | [Binary Search Tree Iterator](leetcode/BinarySearchTreeIterator.py) | BST, stack, design |
+| 187 | [Repeated DNA Sequence](leetcode/RepeatedDNASequence.py) | hash table, bit manipulation |
+| 189 | [Rotate Array](leetcode/RotateArray.py) | array |
+| 190 | [Bit_Reverse_Count](leetcode/Bit_Reverse_Count.py) | bit manipulation |
+| 198 | [House Robber](leetcode/HouseRobber.py) | dynamic programming |
+| 200 | [Coin Change](leetcode/CoinChange.py) | dynamic programming, BFS |
+| 200 | [Number Of Islands](leetcode/NumberOfIslands.py) | matrix, DFS, BFS, union find |
+| 202 | [Happy Number](leetcode/HappyNumber.py) | hash table, math |
+| 203 | [Remove From Linked List](leetcode/RemoveFromLinkedList.py) | linked list |
+| 204 | [Count Prime](leetcode/CountPrime.py) | math, hash table |
+| 205 | [Isomorphic Strings](leetcode/IsomorphicStrings.py) | string, hash table |
+| 206 | [Reverse Linked List](leetcode/ReverseLinkedList.py) | linked list |
+| 207 | [Course Schedule](leetcode/CourseSchedule.py) | graph, topological sort |
+| 208 | [ImplementTrie_PrefixTree](leetcode/ImplementTrie_PrefixTree.py) | trie, design |
+| 211 | [Add Search Word](leetcode/AddSearchWord.py) | trie, design |
+| 215 | [Nth Largest Element In Array](leetcode/NthLargestElementInArray.py) | heap, quickselect, sorting |
+| 217 | [Contains Duplicate](leetcode/ContainsDuplicate.py) | array, math |
+| 225 | [Stack Queue](leetcode/StackQueue.py) | stack, queue, design |
+| 226 | [Invert Tree](leetcode/InvertTree.py) | tree, BFS, DFS |
+| 230 | [Kth Smallest Element In B S T](leetcode/KthSmallestElementInBST.py) | BST, in-order traversal |
+| 231 | [Power Of Two](leetcode/PowerOfTwo.py) | bit manipulation, math |
+| 234 | [Palindrome Linked List](leetcode/PalindromeLinkedList.py) | linked list, two pointers |
+| 235 | [Lowest Common Ancestor](leetcode/LowestCommonAncestor.py) | tree, BST, DFS |
+| 237 | [Delete Node](leetcode/DeleteNode.py) | tree, BST |
+| 238 | [Product Except Self](leetcode/ProductExceptSelf.py) | array, prefix sum |
+| 242 | [Is Anagram](leetcode/IsAnagram.py) | hash table, string, sorting |
+| 243 | [Shortest Word Distance](leetcode/ShortestWordDistance.py) | array |
+| 246 | [Strobogrammatic Number](leetcode/StrobogrammaticNumber.py) | math, hash table, two pointers |
+| 249 | [Intersection2 Arrays](leetcode/Intersection2Arrays.py) | hash table, two pointers |
+| 250 | [Count Univalue Subtrees](leetcode/CountUnivalueSubtrees.py) | tree, DFS |
+| 252 | [Meeting Rooms](leetcode/MeetingRooms.py) | intervals, sorting |
+| 254 | [Factor Combinations](leetcode/FactorCombinations.py) | backtracking, math |
+| 256 | [Paint House](leetcode/PaintHouse.py) | dynamic programming |
+| 257 | [Binary Tree Paths](leetcode/BinaryTreePaths.py) | tree, DFS, backtracking |
+| 258 | [Add Digits](leetcode/AddDigits.py) | math |
+| 259 | [3SumSmaller](leetcode/3SumSmaller.py) | array, two pointers, sorting |
+| 261 | [Graph Valid Tree](leetcode/GraphValidTree.py) | graph, union find, BFS, DFS |
+| 263 | [Ugly Number](leetcode/UglyNumber.py) | math |
+| 266 | [Palindrome Permutation](leetcode/PalindromePermutation.py) | backtracking, hash table |
+| 268 | [Missing Number](leetcode/MissingNumber.py) | array, math, hash table |
+| 270 | [Closest Value B S T](leetcode/ClosestValueBST.py) | BST, binary search |
+| 276 | [Paint Fence](leetcode/PaintFence.py) | dynamic programming |
+| 277 | [Find Celebrity](leetcode/FindCelebrity.py) | array, two pointers |
+| 278 | [First Bad Version](leetcode/FirstBadVersion.py) | binary search |
+| 283 | [Move Zeros](leetcode/MoveZeros.py) | array, two pointers |
+| 290 | [Word Pattern](leetcode/WordPattern.py) | string, hash table |
+| 292 | [Nim Game](leetcode/NimGame.py) | math, game theory |
+| 293 | [Flip Game](leetcode/FlipGame.py) | string |
+| 295 | [Find Median From Data Stream](leetcode/FindMedianFromDataStream.py) | heap, design |
+| 297 | [Serialize Deserialize B S T](leetcode/SerializeDeserializeBST.py) | tree, design |
+| 299 | [Bullsand Cows](leetcode/BullsandCows.py) | hash table, string |
+| 300 | [Longest Increasing Subsequence](leetcode/LongestIncreasingSubsequence.py) | dynamic programming, binary search |
+| 303 | [Range Sum Query](leetcode/RangeSumQuery.py) | array, design |
+| 311 | [Sparse Matrix Multiplication](leetcode/SparseMatrixMultiplication.py) | matrix |
+| 314 | [Binary Tree Vertical Order Traversal](leetcode/BinaryTreeVerticalOrderTraversal.py) | tree, BFS, hash table |
+| 323 | [Numberof Connected Componentsin Graph](leetcode/NumberofConnectedComponentsinGraph.py) | graph, union find, DFS, BFS |
+| 326 | [Power Of Three Four](leetcode/PowerOfThreeFour.py) | math |
+| 338 | [Count Bits](leetcode/CountBits.py) | bit manipulation, dynamic programming |
+| 339 | [Nested List Weight Sum](leetcode/NestedListWeightSum.py) | DFS, stack |
+| 344 | [Reverse String](leetcode/ReverseString.py) | string, two pointers |
+| 346 | [Moving Average Data Stream](leetcode/MovingAverageDataStream.py) | design, queue |
+| 359 | [Logger Rate Limiter](leetcode/LoggerRateLimiter.py) | design, hash table |
+| 366 | [Find Leaves Of Binary Tree](leetcode/FindLeavesOfBinaryTree.py) | tree, DFS |
+| 367 | [Perfect Square](leetcode/PerfectSquare.py) | math, binary search |
+| 370 | [Range Addition](leetcode/RangeAddition.py) | array |
+| 371 | [Sum2 Integers](leetcode/Sum2Integers.py) | bit manipulation |
+| 374 | [Guess Number](leetcode/GuessNumber.py) | binary search |
+| 377 | [Combination Sum I V](leetcode/CombinationSumIV.py) | dynamic programming |
+| 380 | [Insert Delete Get Random](leetcode/InsertDeleteGetRandom.py) | design, array, hash table |
+| 383 | [Ransom Note](leetcode/RansomNote.py) | string, hash table |
+| 387 | [First Unique](leetcode/FirstUnique.py) | string, hash table |
+| 389 | [Find The Difference](leetcode/FindTheDifference.py) | hash table, bit manipulation |
+| 392 | [Is Subsequence](leetcode/IsSubsequence.py) | string, two pointers, greedy |
+| 394 | [Decode String](leetcode/DecodeString.py) | stack, DFS |
+| 400 | [Nth Digit](leetcode/NthDigit.py) | math |
+| 401 | [Binary Watch](leetcode/BinaryWatch.py) | bit manipulation, backtracking |
+| 404 | [Sum Of Left Leaves](leetcode/SumOfLeftLeaves.py) | tree, DFS |
+| 405 | [To Hex](leetcode/ToHex.py) | math, bit manipulation |
+| 408 | [Valid Word Abbreviation](leetcode/ValidWordAbbreviation.py) | string |
+| 409 | [Longest Palindrome2](leetcode/LongestPalindrome2.py) | hash table, greedy |
+| 412 | [Fizz Buzz](leetcode/FizzBuzz.py) | string, math |
+| 414 | [Third Maximum](leetcode/ThirdMaximum.py) | array |
+| 415 | [Add Strings](leetcode/AddStrings.py) | string, math |
+| 422 | [Valid Word Square](leetcode/ValidWordSquare.py) | matrix, string |
+| 424 | [Longest Repeating Character Replacement](leetcode/LongestRepeatingCharacterReplacement.py) | string, sliding window, two pointers |
+| 427 | [Construct Quad Tree](leetcode/ConstructQuadTree.py) | tree, divide and conquer |
+| 429 | [N-aryTreeLevelOrderTraversal](leetcode/N-aryTreeLevelOrderTraversal.py) | tree, BFS |
+| 434 | [Number Of Segments String](leetcode/NumberOfSegmentsString.py) | string |
+| 438 | [Find Anagrams](leetcode/FindAnagrams.py) | string, sliding window, hash table |
+| 441 | [Arranging Coins](leetcode/ArrangingCoins.py) | math, binary search |
+| 443 | [String Compression](leetcode/StringCompression.py) | string, two pointers |
+| 447 | [Number Of Boomerangs](leetcode/NumberOfBoomerangs.py) | hash table, math |
+| 448 | [Disappeared Numbers](leetcode/DisappearedNumbers.py) | array, hash table |
+| 453 | [Minimum Move2 Equal](leetcode/MinimumMove2Equal.py) | array, math |
+| 455 | [Assign Cookies](leetcode/AssignCookies.py) | greedy, sorting |
+| 459 | [Repeated Substring Pattern](leetcode/RepeatedSubstringPattern.py) | string |
+| 461 | [Hamming Distance](leetcode/HammingDistance.py) | bit manipulation |
+| 463 | [Island Perimeter](leetcode/IslandPerimeter.py) | math |
+| 464 | [Can I Win](leetcode/CanIWin.py) | dynamic programming, bit manipulation |
+| 475 | [Heaters](leetcode/Heaters.py) | binary search, two pointers |
+| 476 | [Number Complement](leetcode/NumberComplement.py) | bit manipulation |
+| 482 | [License Key Formatting](leetcode/LicenseKeyFormatting.py) | string |
+| 485 | [Max Consecutive Ones](leetcode/MaxConsecutiveOnes.py) | array |
+| 492 | [Construct Rectangle](leetcode/ConstructRectangle.py) | math |
+| 496 | [Next Greater Element](leetcode/NextGreaterElement.py) | bit manipulation, array, math |
+| 500 | [Keyboard Row](leetcode/KeyboardRow.py) | hash table, string |
+| 501 | [Find Mode In B S T](leetcode/FindModeInBST.py) | BST, in-order traversal, hash table |
+| 504 | [To Base7](leetcode/ToBase7.py) | math |
+| 506 | [Relative Ranks](leetcode/RelativeRanks.py) | sorting |
+| 507 | [Perfect Number](leetcode/PerfectNumber.py) | math |
+| 509 | [Fibonacci Number](leetcode/FibonacciNumber.py) | math, dynamic programming |
+| 515 | [Find Largest Value In Each Tree Row](leetcode/FindLargestValueInEachTreeRow.py) | tree, BFS, DFS |
+| 520 | [Detect Capital](leetcode/DetectCapital.py) | string |
+| 521 | [Longest Uncommon Subsequence](leetcode/LongestUncommonSubsequence.py) | string |
+| 530 | [Min Abs Diff B S T](leetcode/MinAbsDiffBST.py) | BST, in-order traversal |
+| 532 | [Kdiff Pairs In Array](leetcode/KdiffPairsInArray.py) | array, hash table, two pointers |
+| 535 | [Encodeand Decode Tiny U R L](leetcode/EncodeandDecodeTinyURL.py) | design, hash table |
+| 538 | [Convert BS Tto Greater Tree](leetcode/ConvertBSTtoGreaterTree.py) | BST, in-order traversal |
+| 542 | [01Matrix](leetcode/01Matrix.py) | matrix, BFS |
+| 542 | [Rotate Image](leetcode/RotateImage.py) | matrix |
+| 543 | [Diameter Of B S T](leetcode/DiameterOfBST.py) | tree, DFS |
+| 547 | [Friend Circles](leetcode/FriendCircles.py) | graph, DFS, union find |
+| 551 | [Student Attendance Record](leetcode/StudentAttendanceRecord.py) | string, math |
+| 553 | [Optimal Division](leetcode/OptimalDivision.py) | math, string |
+| 554 | [Brick Wall](leetcode/BrickWall.py) | hash table |
+| 558 | [Quad Tree Intersection](leetcode/QuadTreeIntersection.py) | tree |
+| 559 | [MaximumDepthofN-aryTree](leetcode/MaximumDepthofN-aryTree.py) | tree, DFS, BFS |
+| 560 | [Subarray Sum](leetcode/SubarraySum.py) | array, hash table, prefix sum |
+| 561 | [Array Partition](leetcode/ArrayPartition.py) | array, sorting |
+| 563 | [Tilt Of Binary Tree](leetcode/TiltOfBinaryTree.py) | tree, DFS |
+| 565 | [Array Nesting](leetcode/ArrayNesting.py) | array |
+| 566 | [Reshape Matrix](leetcode/ReshapeMatrix.py) | matrix, array |
+| 567 | [Permutation String](leetcode/PermutationString.py) | string, sliding window, two pointers |
+| 572 | [Is Subtree](leetcode/IsSubtree.py) | tree, DFS |
+| 575 | [Distribute Candies](leetcode/DistributeCandies.py) | hash table |
+| 581 | [Shortest Unsorted Subarray](leetcode/ShortestUnsortedSubarray.py) | array, sorting |
+| 582 | [Kill Process](leetcode/KillProcess.py) | tree, hash table, BFS |
+| 583 | [Deletions For Two Strings](leetcode/DeletionsForTwoStrings.py) | string, dynamic programming |
+| 589 | [N-aryTreePreorderTraversal](leetcode/N-aryTreePreorderTraversal.py) | tree, DFS |
+| 590 | [N-aryTreePostorderTraversal](leetcode/N-aryTreePostorderTraversal.py) | tree, DFS |
+| 592 | [Fraction Addition Subtraction](leetcode/FractionAdditionSubtraction.py) | math |
+| 594 | [Longest Harmonious Subsequence](leetcode/LongestHarmoniousSubsequence.py) | hash table, sorting |
+| 594 | [Valid Square](leetcode/ValidSquare.py) | math |
+| 599 | [Minimum Index Sumof Two Lists](leetcode/MinimumIndexSumofTwoLists.py) | hash table |
+| 605 | [Can Place Flowers](leetcode/CanPlaceFlowers.py) | array, greedy |
+| 606 | [Construct Stringfrom Binary Tree](leetcode/ConstructStringfromBinaryTree.py) | tree, DFS, string |
+| 617 | [Merge Two Binary Trees](leetcode/MergeTwoBinaryTrees.py) | tree, DFS |
+| 621 | [Task Scheduler](leetcode/TaskScheduler.py) | greedy, heap, sorting |
+| 624 | [Maximum Distancein Arrays](leetcode/MaximumDistanceinArrays.py) | array, greedy |
+| 628 | [Maximum Product Of Three Numbers](leetcode/MaximumProductOfThreeNumbers.py) | array, sorting, math |
+| 628 | [Sumof Square Numbers](leetcode/SumofSquareNumbers.py) | math, two pointers, binary search |
+| 637 | [Average Levels Binary Tree](leetcode/AverageLevelsBinaryTree.py) | tree, BFS |
+| 645 | [Maximum Average Subarray I](leetcode/MaximumAverageSubarrayI.py) | array, sliding window |
+| 645 | [Set Mismatch](leetcode/SetMismatch.py) | array, math |
+| 647 | [Palindromic Substrings](leetcode/PalindromicSubstrings.py) | BST, string |
+| 653 | [Two Sum I V](leetcode/TwoSumIV.py) | BST, tree traversal |
+| 657 | [Robot Returnto Origin](leetcode/RobotReturntoOrigin.py) | string |
+| 661 | [Image Smoother](leetcode/ImageSmoother.py) | matrix |
+| 665 | [Non-decreasingArray](leetcode/Non-decreasingArray.py) | array, greedy |
+| 669 | [Trima Binary Search Tree](leetcode/TrimaBinarySearchTree.py) | BST, DFS |
+| 671 | [Second Minimum Node Ina Binary Tree](leetcode/SecondMinimumNodeInaBinaryTree.py) | tree, DFS |
+| 680 | [Valid Palindrome I I](leetcode/ValidPalindromeII.py) | string, two pointers, greedy |
+| 682 | [Baseball Game](leetcode/BaseballGame.py) | stack |
+| 686 | [Repeated String Match](leetcode/RepeatedStringMatch.py) | string |
+| 687 | [Longest Univalue Path](leetcode/LongestUnivaluePath.py) | tree, DFS |
+| 690 | [Employee Importance](leetcode/EmployeeImportance.py) | hash table, DFS, BFS |
+| 693 | [Binary Numberwith Alternating Bits](leetcode/BinaryNumberwithAlternatingBits.py) | bit manipulation |
+| 695 | [Max Areaof Island](leetcode/MaxAreaofIsland.py) | matrix, DFS, BFS |
+| 696 | [Count Binary Substrings](leetcode/CountBinarySubstrings.py) | string, two pointers |
+| 697 | [Degreeof An Array](leetcode/DegreeofAnArray.py) | hash table |
+| 700 | [Searchina Binary Search Tree](leetcode/SearchinaBinarySearchTree.py) | BST |
+| 703 | [Kth Largest Elementina Stream](leetcode/KthLargestElementinaStream.py) | heap, design |
+| 704 | [Binary Search](leetcode/BinarySearch.py) | binary search |
+| 709 | [To Lower Case](leetcode/ToLowerCase.py) | string |
+| 716 | [Max Stack](leetcode/MaxStack.py) | stack, design |
+| 717 | [1-bitand2-bitCharacters](leetcode/1-bitand2-bitCharacters.py) | bit manipulation, string |
+| 720 | [Longest Wordin Dictionary](leetcode/LongestWordinDictionary.py) | hash table, sorting, trie |
+| 724 | [Find Pivot Index](leetcode/FindPivotIndex.py) | array |
+| 728 | [Self Dividing Numbers](leetcode/SelfDividingNumbers.py) | math |
+| 733 | [Flood Fill](leetcode/FloodFill.py) | matrix, DFS, BFS |
+| 734 | [Sentence Similarity](leetcode/SentenceSimilarity.py) | hash table |
+| 744 | [Find Smallest Letter Greater Than Target](leetcode/FindSmallestLetterGreaterThanTarget.py) | binary search |
+| 746 | [Min Cost Climbing Stairs](leetcode/MinCostClimbingStairs.py) | dynamic programming |
+| 747 | [Largest Number At Least Twiceof Others](leetcode/LargestNumberAtLeastTwiceofOthers.py) | array |
+| 748 | [Shortest Completing Word](leetcode/ShortestCompletingWord.py) | hash table |
+| 751 | [I Pto C I D R](leetcode/IPtoCIDR.py) | bit manipulation, math |
+| 758 | [Bold Wordsin String](leetcode/BoldWordsinString.py) | string, merge intervals |
+| 760 | [Find Anagram Mappings](leetcode/FindAnagramMappings.py) | hash table |
+| 766 | [Toeplitz Matrix](leetcode/ToeplitzMatrix.py) | matrix |
+| 771 | [Jewelsand Stones](leetcode/JewelsandStones.py) | hash table |
+| 784 | [Letter Case Permutation](leetcode/LetterCasePermutation.py) | backtracking, bit manipulation |
+| 792 | [Number Of Matching Subsequences](leetcode/NumberOfMatchingSubsequences.py) | string, binary search |
+| 800 | [Similar RGB Color](leetcode/SimilarRGBColor.py) | math, string |
+| 811 | [Subdomain Visit Count](leetcode/SubdomainVisitCount.py) | string, hash table |
+| 819 | [Most Common Word](leetcode/MostCommonWord.py) | string, hash table |
+| 821 | [Shortest Distancetoa Character](leetcode/ShortestDistancetoaCharacter.py) | string, two pointers |
+| 824 | [Goat Latin](leetcode/GoatLatin.py) | string |
+| 844 | [Backspace String Compare](leetcode/BackspaceStringCompare.py) | stack, two pointers |
+| 852 | [Peak Indexina Mountain Array](leetcode/PeakIndexinaMountainArray.py) | binary search |
+| 872 | [Leaf Similar Tree](leetcode/LeafSimilarTree.py) | tree, DFS |
+| 893 | [GroupsofSpecial-EquivalentStrings](leetcode/GroupsofSpecial-EquivalentStrings.py) | hash table, string |
+| 896 | [Monotonic Array](leetcode/MonotonicArray.py) | array |
+| 897 | [Increasing Order Search Tree](leetcode/IncreasingOrderSearchTree.py) | BST, in-order traversal |
+| 929 | [Unique Email Addresses](leetcode/UniqueEmailAddresses.py) | string, hash table |
+| 937 | [Reorder Log Files](leetcode/ReorderLogFiles.py) | string, sorting |
+| 938 | [Range Sumof B S T](leetcode/RangeSumofBST.py) | BST, DFS |
+| 953 | [Verifyingan Alien Dictionary](leetcode/VerifyinganAlienDictionary.py) | sorting, hash table |
+| 973 | [K Cloest Pointsto Origin](leetcode/KCloestPointstoOrigin.py) | heap, sorting, divide and conquer |
+| 977 | [Squaresofa Sorted Array](leetcode/SquaresofaSortedArray.py) | array, two pointers |
+| 989 | [AddtoArray-FormofInteger](leetcode/AddtoArray-FormofInteger.py) | array, math |
+| 1002 | [Find Common Characters](leetcode/FindCommonCharacters.py) | hash table |
+| 1010 | [Pairsof Songs With Total Durations Divisibleby60](leetcode/PairsofSongsWithTotalDurationsDivisibleby60.py) | array, hash table |
+| 1021 | [Remove Outermost Parentheses](leetcode/RemoveOutermostParentheses.py) | string, stack |
+| 1022 | [Sumof Root To Leaf Binary Numbers](leetcode/SumofRootToLeafBinaryNumbers.py) | tree, DFS |
+| 1029 | [Two City Scheduling](leetcode/TwoCityScheduling.py) | greedy, sorting |
+| 1030 | [Matrix Cellsin Distance Order](leetcode/MatrixCellsinDistanceOrder.py) | matrix, sorting |
+| 1033 | [Moving Stones Until Consecutive](leetcode/MovingStonesUntilConsecutive.py) | math, sorting |
+| 1037 | [Valid Boomerang](leetcode/ValidBoomerang.py) | math |
+| 1041 | [Robot Bounded in Circle](leetcode/RobotBoundedinCircle.py) | math, simulation |
+| 1042 | [Flower Planting With No Adjacent](leetcode/FlowerPlantingWithNoAdjacent.py) | graph, greedy, backtracking |
+| 1046 | [Last Stone Weight](leetcode/LastStoneWeight.py) | heap |
+| 1047 | [Remove All Adjacent Duplicates In String](leetcode/RemoveAllAdjacentDuplicatesInString.py) | stack |
+| 1051 | [Height Checker](leetcode/HeightChecker.py) | array, counting sort, sorting |
+| 1056 | [Confusing Number](leetcode/ConfusingNumber.py) | math |
+| 1064 | [Fixed Point](leetcode/FixedPoint.py) | array, binary search |
+| 1065 | [Index Pairsofa String](leetcode/IndexPairsofaString.py) | trie, string |
+| 1071 | [Greatest Common Divisorof Strings](leetcode/GreatestCommonDivisorofStrings.py) | string, math |
+| 1078 | [Occurrences After Bigram](leetcode/OccurrencesAfterBigram.py) | string |
+| 1085 | [Sumof Digitsinthe Minimum Number](leetcode/SumofDigitsintheMinimumNumber.py) | array, math |
+| 1086 | [High Five](leetcode/HighFive.py) | hash table, sorting |
+| 1099 | [Two Sum Less Than K](leetcode/TwoSumLessThanK.py) | array, two pointers, sorting |
+| 1118 | [Numberof Days In A Month](leetcode/NumberofDaysInAMonth.py) | math |
+| 1119 | [Remove Vowelsfrom A String](leetcode/RemoveVowelsfromAString.py) | string |
+| 1133 | [Largest Unique Number](leetcode/LargestUniqueNumber.py) | hash table |
+| 1134 | [Armstrong Number](leetcode/ArmstrongNumber.py) | math |
+| 1143 | [Longest Continuous Increasing Subsequence](leetcode/LongestContinuousIncreasingSubsequence.py) | string, dynamic programming |
+| 1150 | [Majority Element In A Sorted Array](leetcode/MajorityElementInASortedArray.py) | array, binary search |
+| 1165 | [Single-RowKeyboard](leetcode/Single-RowKeyboard.py) | string, hash table |
+| 1176 | [Diet Plan Performance](leetcode/DietPlanPerformance.py) | array, sliding window |
+| 1180 | [Count Substringswith Only One Distinct Letter](leetcode/CountSubstringswithOnlyOneDistinctLetter.py) | string, math |
+| 1196 | [How Many Apples Can You Putintothe Basket](leetcode/HowManyApplesCanYouPutintotheBasket.py) | greedy, sorting |
+| 1213 | [Intersectionof Three Sorted Arrays](leetcode/IntersectionofThreeSortedArrays.py) | array, three pointers, hash table |
+| 1228 | [Missing Number In Arithmetic Progression](leetcode/MissingNumberInArithmeticProgression.py) | array, math |
+| 1243 | [Array Transformation](leetcode/ArrayTransformation.py) | array, simulation |
+| 1271 | [Hexspeak](leetcode/Hexspeak.py) | math, string, hash table |
+| 1419 | [Minimum Number Of Frogs Croaking](leetcode/MinimumNumberOfFrogsCroaking.py) | string, math |
+| 1472 | [Design Browser History](leetcode/DesignBrowserHistory.py) | design, linked list |
